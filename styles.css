@@ -1,2 +1,9 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;          /* enable flexbox */
+  justify-content: space-evenly; /* evenly distribute items in the row */
+  flex-wrap: wrap;        /* allow items to wrap instead of squashing */
+  width: 100vw;           /* take full viewport width */
+  min-height: 100vh;      /* optional: cover full viewport height */
+}
